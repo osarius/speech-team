@@ -8,3 +8,13 @@ a{
     font-style: normal;
     font-weight: 400;
 }
+
+.skip a {
+    position: absolute;
+    top: -40px;
+  }
+  
+
+  .skip a:focus {
+    top: 20px;
+  }
