@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float);
+
+a{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.skip a {
+    position: absolute;
+    top: -40px;
+  }
+  
+
+  .skip a:focus {
+    top: 20px;
+  }
+
+.header{
+  background: #0459a3;
+}
+
+body{
+  background: #609ed4;
+}
+
+  .navbar > ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .navbar li{
+    list-style: none;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+  }
+
+  .navbar a:visited{
+    color: white;
+  }
+
+  .images{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    gap: 5px;
+  }
+
+
+  .images > img{
+    border: 5px solid yellow;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+  }
