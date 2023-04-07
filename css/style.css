@@ -9,7 +9,7 @@
     font-weight: 400;
 }
 nav a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
 }
@@ -22,5 +22,72 @@ nav a{
   }
   section{
     display:flex;
-    
+    flex: 2 1 auto;
+    justify-content: center;
+  }
+  h1{
+    display: inline;
+    font-size:54px;
+    font-weight: bold;
+  }
+  h2{
+    display: inline;
+    font-size:42px;
+    font-weight:lighter;
+  }
+  section #i1,#g1,#t1{
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+  }
+  .title{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url("../pics/Law-Library-exterior-BHL\(umichheritageproj\).jpg")
+  }
+  .header{
+    display:grid;
+    grid-template-columns: 1/-1;
+    background-color: black;
+    justify-content: center;
+  }
+  .second{
+    background-color: #f6f1f1;
+  }
+  .locations{
+    display:grid;
+    justify-items: center;
+  }
+  .gamers{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-gap: 10px;
+  }
+  .speak{
+    background-color: #7fcbd1;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .speak img{
+    border-radius: 50%;
+  }
+  .locations img{
+    height: 150px;
+    width: 150px;
+  }
+  .grid{
+    display: grid;
+  }
+  .remarks h1{
+    display:grid;
+    justify-content: center;
   }
