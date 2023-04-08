@@ -35,6 +35,8 @@ body{
   }
   
   .navbar li{
+    display: inline-block;
+    vertical-align: middle;
     list-style: none;
   }
 
