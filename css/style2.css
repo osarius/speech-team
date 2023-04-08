@@ -29,9 +29,10 @@ body{
 
   .navbar > ul {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
     gap: 20px;
+      align-items: center;
   }
   
   .navbar li{
