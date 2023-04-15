@@ -32,7 +32,7 @@ nav a{
   }
   h2{
     display: inline;
-    font-size:42px;
+    font-size:36px;
     font-weight:lighter;
   }
   section #i1,#g1,#t1{
@@ -48,7 +48,7 @@ nav a{
     height: 100%;
     position: relative;
     overflow: hidden;
-    background: url("../pics/Law-Library-exterior-BHL\(umichheritageproj\).jpg")
+    /* background: url("../pics/Law-Library-exterior-BHL\(umichheritageproj\).jpg") */
   }
   .header{
     display:grid;
@@ -62,16 +62,20 @@ nav a{
   .locations{
     display:grid;
     justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .gamers{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
-  grid-gap: 10px;
+  grid-gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   }
   .speak{
-    background-color: #7fcbd1;
+    
   height: 200px;
   display: flex;
   align-items: center;
@@ -87,7 +91,15 @@ nav a{
   .grid{
     display: grid;
   }
+  .remarks{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .remarks h1{
     display:grid;
     justify-content: center;
+  }
+  .GET{
+    position: relative;
+    
   }
