@@ -9,10 +9,17 @@
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <title>GALLERY</title>
 </head>
+<style>
+    .header{
+        display:grid;
+        justify-content: center;
+    }
+</style>
 <body>
     <header class = "header">
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
         <nav class = "navbar">
+            <h1 id="drop">Dropdown</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -21,19 +28,13 @@
             </ul>
         </nav>
     </header>
-    <style>
-    .header{
-        display:grid;
-        justify-content: center;
-    }
-</style>
     <main class = "container" id = "main">
         <section id="g1">
             <div class="title">
-
+                <h1>Galiography</h1>
             </div>
         </section>
-        <section id="g2">
+        <section class="second flex" id="g2">
             <div class="gallery">
                 <h1>Past Tournaments</h1>
                 <div class = "images">
@@ -50,7 +51,7 @@
         <section id="g3">
             <div class="gallery">
                 <h1>Fun Events</h1>
-                <div class = "images">
+                <div class = images>
                     <img src="./images/BWW Prize.jpg" alt="Members Winning Coupons to Buffalo Wild Wings" width="600" height="400">
                     <img src="./images/Team.jpg" alt="Team Picture" width="600" height="400">
                 </div>
@@ -58,7 +59,7 @@
         </section>
     </main>
     <footer>
-        <p>Made by Steve Nguyen and Weiyuan Lyu</p>
+        <p>Made by Steve Nguyen and Weiyuan Lei</p>
     </footer>
 </body>
 </html>
