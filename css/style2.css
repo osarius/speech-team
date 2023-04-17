@@ -158,8 +158,41 @@ footer p{
     height: 500px;
     width: 100%;
 }
+#background2{
+    background-image: url("../pics/edward-howell-oS0sZdE5U6c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(4px);
+    height: 450px;
+    width: 100%;
+}
+#background3{
+    background-image: url("../pics/concert-g6e28994e1_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(4px);
+    height: 450px;
+    width: 100%;
+}
+#background4{
+    background-image: url("../pics/pexels-fauxels-3184423.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(4px);
+    height: 450px;
+    width: 100%;
+}
 #frontend{
     display:flex;
+    position: absolute;
+    margin-top: 100px;
+    justify-content: center;
+}
+#frontier{
+    display:grid;
     position: absolute;
     margin-top: 100px;
     justify-content: center;
@@ -169,6 +202,20 @@ footer p{
     color: rgb(50, 143, 225);
     text-shadow: yellow 2px 2px;
 }
+video {
+    width: auto;
+    height: 10%;
+  }
+  #smaller{
+    font-size: 32px;
+  }
+  #ramsey{
+    display:grid;
+    justify-items:center;
+  }
+  .interest{
+    margin-bottom: 30px;
+  }
 @media screen and (min-width:740px){
     #drop{
         color:#23517B;
