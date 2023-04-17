@@ -9,23 +9,22 @@
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <title>ABOUT</title>
 </head>
-    <style>
-    .header{
-        display:grid;
-        justify-content: center;
-    }
-</style>
+    
 <body>
     <header class = "header">
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
-        <nav class = "navbar">
-            <ul id="#hidden">
+        <h1 id="drop">Dropdown</h1>
+        <div id="format1">
+            <nav class = "navbar">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="tournament.html">Tournament</a></li>
             </ul>
         </nav>
+        </div>
+        
     </header>
     <main class = "container" id = "main">
         <section class="grid">
@@ -36,6 +35,10 @@
         <section class="second grid" id="a2">
             <div class="remarks">
                 <h1>Remarks</h1>
+                <div>
+                    <p style="font-size: 18px; margin-left: 25%;">Hear from our AMAZING alumni from their experiences</p>
+                </div>
+                
                 <div class="gamers">
                     <div class="speak">
                         <img src="./pics/lol former prez.jpg" alt="Sydney Helsel">
@@ -58,7 +61,7 @@
                 <h1>Locations</h1>
                 <div class="buildings">
                     <div class="assemble">
-                        <h2 id="#format">Meeting Areas</h2>
+                        <h2 id="#format" style="display:grid; justify-content: center;">Meeting Areas</h2>
                         <div>
                            <img src="./pics/angell(arts@umich).jpg" alt="Angell Hall">
                             <img src="./pics/rackham(pure michigan).jpg" alt="Rackham Auditorium">
@@ -67,7 +70,7 @@
                         
                     </div>
                     <div class="comp">
-                        <h2 id="#format">Competition Areas</h2>
+                        <h2 id="#format" style="display:grid; justify-content: center;">Competition Areas</h2>
                         <div>
                            <img src="./pics/chemistry(cci).jpg" alt="Chemistry Building">
                             <img src="./pics/kinesiology(wiki).jpg" alt="Kinesiology Building">
@@ -83,4 +86,5 @@
         <p>Made by Steve Nguyen and Weiyuan Lyu</p>
     </footer>
 </body>
+<script src="js/general.js"></script>
 </html>
