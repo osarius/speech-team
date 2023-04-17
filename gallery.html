@@ -9,17 +9,14 @@
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <title>GALLERY</title>
 </head>
-<style>
-    .header{
-        display:grid;
-        justify-content: center;
-    }
-</style>
+
 <body>
     <header class = "header">
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
-        <nav class = "navbar">
-            <h1 id="drop">Dropdown</h1>
+        <h1 id="drop">Dropdown</h1>
+        <div id="format1">
+            <nav class = "navbar">
+            
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -27,16 +24,24 @@
                 <li><a href="tournament.html">Tournament</a></li>
             </ul>
         </nav>
+        </div>
+        
     </header>
     <main class = "container" id = "main">
         <section id="g1">
-            <div class="title">
+            
+                <div class="title">
                 <h1>Galiography</h1>
+            
             </div>
+            
         </section>
         <section class="second flex" id="g2">
             <div class="gallery">
-                <h1>Past Tournaments</h1>
+                <div>
+                    <h1 style="display:flex; justify-content: center;">Past Tournaments</h1>
+                </div>
+                
                 <div class = "images">
                     <img src="./images/Awards.jpg" alt="All-American Winners" width="600" height="400">
                     <img src="./images/BG Tourney.jpg" alt="Team Member Stressed at Bowling Green" width="600" height="400">
@@ -50,7 +55,8 @@
         </section>
         <section id="g3">
             <div class="gallery">
-                <h1>Fun Events</h1>
+                
+                <h1 style="display:flex; justify-content: center;">Fun Events</h1>
                 <div class = images>
                     <img src="./images/BWW Prize.jpg" alt="Members Winning Coupons to Buffalo Wild Wings" width="600" height="400">
                     <img src="./images/Team.jpg" alt="Team Picture" width="600" height="400">
@@ -62,4 +68,5 @@
         <p>Made by Steve Nguyen and Weiyuan Lei</p>
     </footer>
 </body>
+<script src="js/general.js"></script>
 </html>
