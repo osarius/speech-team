@@ -25,14 +25,16 @@ a {
 
 .header {
     display: relative;
-    background: #0459a3;
+    background: #12137e;
 }
 
 body {
-    background: #d9ecfd;
+    background: #5c9ad0;
 }
 .navbar{
     overflow:hidden;
+    visibility: initial;
+    /* visibility: hidden; */
 }
 .navbar>ul {
     display: flex;
@@ -55,6 +57,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: white;
+    margin:10px;
 }
 
 .navbar a:visited {
@@ -109,11 +112,15 @@ footer p{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#clock_support{
+    background-color: #23517B;
+}
 #clock{
     display:block;
-    color: yellow;
+    color: #FAFAFA;
     font-size: 96px;
     font-weight: bold;
+    text-shadow: 2px 2px 4px #585d15;
 }
 .count{
     display:block;
@@ -127,14 +134,76 @@ footer p{
 }
 
 #drop{
+    position: relative;
     margin: 0 auto;
-    width: 50%;
+    width: -30%;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 24px;
     color: aliceblue;
+    margin-bottom: 10px;
+}
+#brinkus{
+    background-image: url("./pics/Law-Library-exterior-BHL\(umichheritageproj\).jpg");
+}
+#spanner{
+    width:100%;
+    background-image: url("../pics/Law-Library-exterior-BHL\(umichheritageproj\).jpg");
+}
+.background{
+    background-image: url("../pics/Law\ Library\(Pinterest\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: blur(4px);
+    height: 500px;
+    width: 100%;
+}
+#frontend{
+    display:flex;
+    position: absolute;
+    margin-top: 100px;
+    justify-content: center;
+}
+#tis{
+    font-size: 52px;
+    color: rgb(50, 143, 225);
+    text-shadow: yellow 2px 2px;
+}
+@media screen and (min-width:740px){
+    #drop{
+        color:#23517B;
+        top:-50px
+    }
+    nav{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .navbar>ul{
+        flex-direction: row;
+        justify-self: flex-end;
+        margin-right: 20px;
+    }
+    .navbar a{
+        font-size: 24px;
+    }
+    .header{
+        display:grid;
+        justify-content: center;
+        
+    }
+    #format1{
+        position: relative;
+        top: -30px;
+    }
+    #frontend{
+        margin-top: 140px;
+    }
+    #tis{
+        font-size: 80px;
+    }
 }
 
-@media screen and(min-width:800px) {
+@media screen and (min-width: 900px) {
     .buildings{
         grid-gap:50px
     }
@@ -148,5 +217,33 @@ footer p{
     }
     .buildings #format{
         justify-self: center;
+    }
+    #drop{
+        color:#23517B;
+        top:-50px
+    }
+    nav{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .navbar>ul{
+        flex-direction: row;
+        justify-self: flex-end;
+        margin-right: 20px;
+    }
+    .navbar a{
+        font-size: 36px;
+    }
+    .header{
+        display:grid;
+        justify-content: end;
+        
+    }
+    #format1{
+        position: relative;
+        top: -30px;
+    }
+    #tis{
+        font-size: 108px;
     }
 }
