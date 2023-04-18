@@ -44,8 +44,8 @@ body {
     align-items: center;
 }
 .punxa{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .navbar #hidden {
     display: inline-block;
@@ -155,7 +155,7 @@ footer p{
     background-size: cover;
     position: relative;
     filter: blur(4px);
-    height: 500px;
+    height: 200px;
     width: 100%;
 }
 #background2{
@@ -164,7 +164,7 @@ footer p{
     background-size: cover;
     position: relative;
     filter: blur(4px);
-    height: 450px;
+    height: 200px;
     width: 100%;
 }
 #background3{
@@ -173,16 +173,16 @@ footer p{
     background-size: cover;
     position: relative;
     filter: blur(4px);
-    height: 450px;
+    height: 200px;
     width: 100%;
 }
 #background4{
-    background-image: url("../pics/pexels-fauxels-3184423.jpg");
+    background-image: url("../pics/pexels-andrea-piacquadio-3931634.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     filter: blur(4px);
-    height: 450px;
+    height: 200px;
     width: 100%;
 }
 #frontend{
@@ -216,6 +216,39 @@ video {
   .interest{
     margin-bottom: 30px;
   }
+  .wrap{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .rate{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:35%;
+    width:120px;
+    padding: 15px;
+    /* background-color: rgb(192, 212, 210); */
+    border-radius: 10%;
+  }
+  .LIKE,.DISLIKE{
+    width:24px;
+    height:24px;
+    background-image: url("../pics/lidi.png");
+    cursor:pointer;
+  }
+  .DISLIKE{
+    background-position: -48px;
+  }
+  .LIKE.set{
+    background-position: -24px;
+  }
+  .DISLIKE.set{
+    background-position: -72px;
+  }
+  .shogun{
+    margin-left: 20px;
+  }
+  
 @media screen and (min-width:740px){
     #drop{
         color:#23517B;
@@ -248,6 +281,22 @@ video {
     #tis{
         font-size: 80px;
     }
+    .background{
+        height:500px;
+    }
+    #background2{
+        height:450px;
+    }
+    #background3{
+        height:450px;
+    }
+    #background4{
+        height:450px;
+    }
+    .active{
+    text-shadow: 2px 2px rgb(158, 183, 16);
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 900px) {
