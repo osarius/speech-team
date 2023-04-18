@@ -79,8 +79,8 @@ nav a{
   grid-template-rows: auto;
   grid-auto-flow: row;
   grid-gap: 40px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 70px;
   }
   .speak{
     
@@ -90,6 +90,7 @@ nav a{
   justify-content: center;
   }
   .speak img{
+    border-color: rgb(45, 137, 216);
     border-radius: 50%;
   }
   .locations img{
