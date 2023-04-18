@@ -7,12 +7,16 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" ></script>
     <title>TOURNAMENT</title>
 </head>
 <body>
     <header class = "header">
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
         <h1 id="drop">Dropdown</h1>
+        <h1 id = "title"></h1>
         <div id="format1">
             <nav class = "navbar">
             <ul>
@@ -58,9 +62,16 @@
         </section>
     </main>
     <footer>
-        <p>Made by Steve Nguyen and Weiyuan Lei</p>
+        <p>Made by Steve Nguyen and Weiyuan Lyu</p>
     </footer>
 </body>
 <script src="js/general.js"></script>
 <script src="js/style.js"></script>
+<script type="text/babel">
+     function Hello() {
+         return <h1>TOURNAMENT</h1>;
+       }
+
+     ReactDOM.render(<Hello />, document.getElementById('title'))
+</script>
 </html>
