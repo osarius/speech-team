@@ -7,9 +7,6 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js" ></script>
     <title>TOURNAMENT</title>
 </head>
 <body>
@@ -22,7 +19,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="tournament.html">Tournament</a></li>
+                <li class="active"><a href="tournament.html">Tournament</a></li>
+                
             </ul>
         </nav>
         </div>
@@ -32,19 +30,38 @@
         <section class="flex" id = "t1">
             <div id="background2"></div>
             <div id="frontend">
-                <div id="tis"></div>
+                <h1 id="tis">Tournament</h1>
             </div>
             
         </section>
         <section class="flex second" id="t2">
-            <div class="punxa">
+            <div class="punxa" style="margin-left: 40px;">
                 <h1>Punxatourney</h1>
                 <div class = "list">
                     <h2>January 28, 2024</h2>
                 </div>
-                <div class="info">
-                    <p>jnovn oeivov idiv isdv iondziovdvn</p>
+                <div class="info"style="margin-left: 40px;">
+                    <h3 style="margin-top: 20px;margin-right: 20px; font-size: 24px;">Mission Statment</h3>
+                    <div>
+                        <p style="margin-right: 40px;">Understanding that high school students across the state of Michigan 
+                        are scared of public speaking, there is a need for a place that challenges
+                        these barriers. Our Ann Arbor campus is the perfect spot to host this platform
+                        as it sees potential in all students.
+                        </p>
+                    </div>
+                    <h3 style="margin-top: 20px;margin-right: 20px; font-size: 24px;">Frequently Asked Questions</h3>
+                    <div>
+                        <ul>
+                            <li style="margin-top: 10px;">Question: How do you do well in this tournament?</li>
+                            <p>Answer: There are run-through speeches online giving proper format.</p>
+                            <li style="margin-top: 10px;">Question: Where will our results be displayed?</li>
+                            <p>Answer: They will be displayed through Tabroom.</p>
+                            <li style="margin-top: 10px;">Question: How should I dress?</li>
+                            <p>Answer: Whatever fits your speaking event.</p>
+                        </ul>
+                    </div>
                 </div>
+                    
             </div>
         </section>
         <section id="t3">
@@ -61,16 +78,9 @@
         </section>
     </main>
     <footer>
-        <p>Made by Steve Nguyen and Weiyuan Lyu</p>
+        <p>Made by Steve Nguyen and Weiyuan Lei</p>
     </footer>
 </body>
 <script src="js/general.js"></script>
 <script src="js/style.js"></script>
-<script type="text/babel">
-     function Hello() {
-         return <h1>TOURNAMENT</h1>;
-       }
-
-     ReactDOM.render(<Hello />, document.getElementById('tis'))
-</script>
 </html>
