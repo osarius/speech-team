@@ -27,12 +27,12 @@ nav a{
   }
   h1{
     display: inline;
-    font-size:54px;
+    font-size:42px;
     font-weight: bold;
   }
   h2{
     display: inline;
-    font-size:36px;
+    font-size:30px;
     font-weight:lighter;
   }
   section #i1,#g1,#t1{
@@ -63,6 +63,7 @@ nav a{
     grid-template-columns: 1/-1;
     background-color: black;
     justify-content: center;
+    width: 100%;
   }
   .second{
     background-color: #f6f1f1;
@@ -112,5 +113,14 @@ nav a{
   }
   .GET{
     position: relative;
+  }
+  @media screen and (min-width: 740px){
+    h1{
+      font-size: 54px;
+    }
+    h2{
+      font-size: 36px;
+    }
     
+
   }
